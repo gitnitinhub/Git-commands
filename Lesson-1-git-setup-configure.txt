@@ -10,4 +10,4 @@ git config --global core.editor "code --wait" 		{to set the default text editor 
 git config --global init.defaultbranch main		{to set default branch as main}
 git config --list					{to see all the command passed above in a list}
 git config user.name					{to see the set user name for git }
-git config user.email					{to see current email address for git acc}
+git config user.email					{to see current email address for git acc }
