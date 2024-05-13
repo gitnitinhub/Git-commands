@@ -1,12 +1,22 @@
 
 
 L-2
->>Initializing a Git Repository
+>>Initializing a Git Repository and pushing for the very first time
 
-1) go to the folder which you want get git initialized in it 
-cd /Users/nitin/Desktop/git-commands			{to change the directly and move to target folder}
+1) go to the folder which you want get git initialized
+in it cd /Users/nitin/Desktop/git-commands		{to change the directly and move to target folder}
 
 2) type the git init command 
 git init						{initialize an empty git repo with a hidden file name .git}
 
-3) 
+3) git add .						{used to add all the chnges and files into staging area}
+
+4) git commit -m "first commit"				{used to commit the chngess to know what are the last chnge made}
+
+5) git branch -M main					{used to create the branch main for very first time}
+
+6) git remote add origin [http-url-from-git-repo]	{this is done to connect local repo to remote repo on GitHub 
+							 for the very first time only}
+7) git push -u origin main				{this is done to push file in connected remote repo}
+
+8) git status						{to check every thing is up to date}
