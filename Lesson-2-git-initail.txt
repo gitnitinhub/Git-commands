@@ -9,4 +9,4 @@ cd /Users/nitin/Desktop/git-commands			{to change the directly and move to targe
 2) type the git init command 
 git init						{initialize an empty git repo with a hidden file name .git}
 
-3)
+3) 
